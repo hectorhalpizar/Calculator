@@ -12,7 +12,7 @@
 		409325DC71A54CB73B1D77C51ECBCFA7 /* Pods-Calculator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53EC3057B1BD6385BA5A499C525430 /* Pods-Calculator_Tests-dummy.m */; };
 		40D734F45F72E157ADD7E7CFFC097559 /* Calculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3567AC780EA7F3B0FFA9C5AD651016 /* Calculator-dummy.m */; };
 		42829BCD55447D4EDA82A87C7605CC7E /* Pods-Calculator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB781DD1DDB4FD5A5A53175345AE3E1B /* Pods-Calculator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59E9DF7204CC27F6FD90533746C949A5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48E94231ED308BDEC298733688095A /* ReplaceMe.swift */; };
+		59E9DF7204CC27F6FD90533746C949A5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48E94231ED308BDEC298733688095A /* Calculator.swift */; };
 		C820112C93D7D1FDBECA7DEFF0A52A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		13E0EA53A49048F538E295A72B5E9DBE /* Pods-Calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1B9833C6473FA87714326443EA7E714D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B9833C6473FA87714326443EA7E714D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E9CADE2C747FAEF82B5621FA3D2A6C1 /* Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Calculator.release.xcconfig; sourceTree = "<group>"; };
 		22966FD1442DFFD76591EAB1AC648635 /* Calculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Calculator; path = Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2894DAE5B1299E8B9C697D917B00EB61 /* Calculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
@@ -36,13 +36,13 @@
 		4539208C8A2C887050C21CD85ACF7231 /* Calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calculator-umbrella.h"; sourceTree = "<group>"; };
 		47A4709ED34A7F63977A8C9465CB80BD /* Calculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calculator-prefix.pch"; sourceTree = "<group>"; };
 		4C2DD44AA1552656260E9D521FF9F26C /* Calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Calculator.modulemap; sourceTree = "<group>"; };
-		5F669E3EB1A31C4976423EC26318A5D6 /* Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F669E3EB1A31C4976423EC26318A5D6 /* Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64D04A59CD96D3123B02FDA93015AB7A /* Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Calculator.debug.xcconfig; sourceTree = "<group>"; };
 		71309CC8CF4B3B006E6D4518160A9B3A /* Pods-Calculator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Calculator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85AFE56310D87B7A13F0DB39D5B98619 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9C48E94231ED308BDEC298733688095A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Calculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85AFE56310D87B7A13F0DB39D5B98619 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9C48E94231ED308BDEC298733688095A /* Calculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = Calculator/Classes/Calculator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A31C16B7171A14C05D618175A8DFA6BF /* Pods-Calculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Calculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB7B210994DAB86B80792C1F36DDDCAD /* Pods-Calculator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Calculator_Tests"; path = Pods_Calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC53EC3057B1BD6385BA5A499C525430 /* Pods-Calculator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Calculator_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		F6BEAAC09B0F7589ADA57B6EBE376729 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				9C48E94231ED308BDEC298733688095A /* ReplaceMe.swift */,
+				9C48E94231ED308BDEC298733688095A /* Calculator.swift */,
 				42474A3DAAF7C1469495331466E184D3 /* Pod */,
 				7F728B349A17D3C74B5B5A72519DF1F8 /* Support Files */,
 			);
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D734F45F72E157ADD7E7CFFC097559 /* Calculator-dummy.m in Sources */,
-				59E9DF7204CC27F6FD90533746C949A5 /* ReplaceMe.swift in Sources */,
+				59E9DF7204CC27F6FD90533746C949A5 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +398,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
