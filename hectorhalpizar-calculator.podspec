@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'hectorhalpizar-calculator'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'This is my library for the calculator'
   s.swift_version    = '4.2'
 

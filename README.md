@@ -22,7 +22,7 @@ pod 'Calculator'
 
 ## Author
 
-hectorhalpizar, hector.alpizar.c@gmail.com
+hectorhalpizar
 
 ## License
 
